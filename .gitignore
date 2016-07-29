@@ -1,0 +1,9 @@
+/vendor
+/cache/**
+!/cache/.gitkeep
+/report/**
+/src/config/config.php
+composer.phar
+.DS_Store
+.idea
+src/config/dev

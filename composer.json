@@ -1,0 +1,29 @@
+{
+  "name": "cornford/pokenotifier",
+  "description": "An easy way to send nearby Pokemon notifications to Slack.",
+  "keywords": ["slack", "notification", "nearby", "pokemon", "pokemon go", "map"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bradley Cornford",
+      "email": "me@bradleycornford.co.uk"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "maknz/slack": "1.*",
+    "jimmiw/php-time-ago": "0.*",
+    "guzzlehttp/guzzle": "4.*"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "2.*",
+    "phpunit/phpunit": "4.*",
+    "mockery/mockery": "0.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Cornford\\Pokenotifier": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
